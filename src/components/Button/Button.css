@@ -1,0 +1,33 @@
+.button {
+    background-color: #4a90e2;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    letter-spacing: 1.17px;
+    font-weight: 500;
+    min-height: 72px;
+    min-width: 108px;
+    padding: 20px;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: rgb(27, 81, 168);
+    color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(27, 81, 168);
+    border-image: initial;
+}
+
+.disabledButton {
+    background-color: #a9a9a9;
+}
+
+.disabledButton:hover {
+    background-color: #808080;
+}

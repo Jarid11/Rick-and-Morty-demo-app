@@ -1,0 +1,21 @@
+.messageBar {
+  max-width: 700px;
+  color: white;
+  line-height: 30px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  position: absolute;
+  opacity: 0.7;
+  text-align: center;
+  position: relative;
+  padding: 0 10px;
+}
+
+.red {
+  background-color: #ee2727;
+}
+
+.green {
+  background-color: #7dc033;
+}
+

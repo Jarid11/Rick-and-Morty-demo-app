@@ -1,0 +1,25 @@
+.charName {
+    text-align: center;
+}
+
+.charInput {
+    margin: 16px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.charImg {
+    border-radius: 5px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
