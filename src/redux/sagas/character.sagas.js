@@ -18,7 +18,6 @@ function* getCharacterSaga({ payload }) {
         yield delay(3000)
         yield put(getCharacterSuccess(mappedResponse))
     } catch (e) {
-        // update Redux with failure
         yield put(getCharacterFailure('Unexpected error occurred, please try again'))
     }
 }
